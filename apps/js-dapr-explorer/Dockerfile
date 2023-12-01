@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:21.2-alpine3.18
 ARG appversion=1.0.0
 ARG appfolder="app"
 RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
